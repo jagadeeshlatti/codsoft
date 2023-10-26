@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    height: 100px;
+    /* background-color: burlywood; */
+    margin:20px 100px 100px 100px;
+}
+.image img{
+    height: 100px;
+    width: 100%;
+}
+body{
+    margin: 50px 200px;
+    /* background-color: yellowgreen; */
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    color:black;
+
+}
+p{
+    font-size: large;
+    font-weight:500;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    padding-top: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin: 0%;
+}
