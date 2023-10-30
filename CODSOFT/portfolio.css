@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
     /* background-image:url(images/j\ photo.jpg);
     background-repeat: no-repeat; */
@@ -8,6 +12,7 @@ body{
     /* background-repeat: no-repeat; 
     */
     background-size: cover;
+    background-blend-mode: color;
     
     /* height: 100%;
     width: 100%; */
@@ -16,8 +21,59 @@ body{
 /* .a{
     display: flex;
 } */
+header{
+    display: flex;
+    margin: 10px 40px ;
+    height: 8vh;
+    background-image: url(images/2.jpg);
+}
+.name{
+    padding: 0;
+    text-align: right;
+    margin: 15px 47px; 
+
+}
+.about{
+    margin: 15px 47px;
+    padding: 0px 30px;
+    text-align: right;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    text-align: right;
+    padding: 0px 30px;
+    float: inline-end;
+    font-size: 3vh;
+    
+}
+.list li{
+    padding: 0px 30px;
+    text-align: right;
+    float: inline-end;
+    text-decoration-color: #fff;
+    text-decoration: none;
+}
+
+
+.main {
+    display: flex;
+    font-size: x-large;
+    color: rgb(20, 20, 21);  
+    margin: 18px 40px;
+   
+}
+
+.myImage{
+    height: 25vh;
+    display: flex;
+}
+.myImage:hover{
+    height: 35vh;
+    display: flex;
+}
 .bg{
-    background-image:url(images/j\ photo.jpg);
+    /* background-image:url(images/jphoto.jpg); */
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: center;
@@ -30,55 +86,69 @@ p{
     font-size: x-large;
     
 }
+
 .text{
-    
-    padding: 100px;
-}
-header{
-    display: flex;
-    margin: 10px 40px;
-    height: 50px;
-    background-image: url(images/2.jpg);
-}
-.name{
-    padding: 0px 30px;
-    text-align: right;
-    margin: 0px 100px ;
+    margin:0 ;
+    padding: 18px 20px;
+    background: rgba(231, 231, 231, 0.5);
+    width: 85vw;
+
 
 }
-.about{
-    margin: 0px 100px ;
-    padding: 0px 30px;
-    text-align: right;
-}
-.list{
-    display: flex;
-    list-style-type: none;
-    text-align: right;
-    padding: 0px 30px;
-    float: inline-end;
-}
-.list li{
-    padding: 0px 30px;
-    text-align: right;
-    float: inline-end;
-    
 
+.text.p{
+    flex-direction: column;
 }
-.main {
-    
-    height: 100px;
-    padding: 20px 200px;
-    font-size: x-large;
-    color: rgb(20, 20, 21);
-    
-}
-.skill{
+
+
+
+.skillsAndImages{
+    margin: 18px 40px;
     display: flex;
+    flex-direction: column;
 }
-img{
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skillhead h2{
+    font-size: 5vh;
+}
+
+.skillsList li{
+    font-size:3vh;
+    margin: 2vh;
+}
+
+.SImages{
+    display: flex;
+    flex-direction: column;
+}
+.SImages img{
+    height: 20vh;
+    padding: 2vh;
+}
+.imgs{
+    display: flex;
+    flex-direction: row;
+}
+
+.project{
+    margin: 18px 40px;
+}
+.project h2{
+    font-size: 5vh;
+}
+.projects li{
+    font-size:3vh;
+    margin: 2vh;
+}
+
+/* img{
     size: 100px;
-}
+} */
 footer{
     background-color: black;
     color: #fff;
