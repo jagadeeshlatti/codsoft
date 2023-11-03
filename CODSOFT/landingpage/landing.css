@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    height: 100px;
+    margin:20px 100px 100px 100px;
+}
+.image {
+    height: 150px;
+    width: 200px;
+}
+
+.name{
+    padding: 30px 40px;
+}
+body{
+    margin: 50px 200px;
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    color:black;
+
+}
+p{
+    font-size: large;
+    font-weight:500;
+}
+.choose{
+    /* display: flex; */
+}
+.imgs img{
+    height: 150px;
+    width: 250px;
+    padding: 2vh 6vh;
+}
+/* .serviceshead{
+    padding: 2vh 0vh 0vh 0vh;
+} */
+.services{
+    border-color: black;
+    border-width: 1vh;
+    border-style: inset;
+}
+.work{
+    padding: 2vh 0vh 0vh 0vh;
+}
+.work{
+    display: flex;
+}
+
+
+footer{
+    background-color: black;
+    height: 100px;
+    padding-top: 15px;
+    color: aliceblue;
+    text-align: center;
+    margin: 0%;
+}

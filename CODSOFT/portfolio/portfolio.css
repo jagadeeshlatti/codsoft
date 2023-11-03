@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    /* background-image:url(images/j\ photo.jpg);
+    background-repeat: no-repeat; */
+    
+    
+    
+    background-image: url(images/2.jpg);
+    /* background-repeat: no-repeat; 
+    */
+    background-size: cover;
+    background-blend-mode: color;
+    
+    /* height: 100%;
+    width: 100%; */
+
+}
+/* .a{
+    display: flex;
+} */
+header{
+    display: flex;
+    margin: 10px 40px ;
+    height: 8vh;
+    background-image: url(images/2.jpg);
+}
+.name{
+    padding: 0;
+    text-align: right;
+    margin: 15px 47px; 
+
+}
+.about{
+    margin: 15px 47px;
+    padding: 0px 30px;
+    text-align: right;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    text-align: right;
+    padding: 0px 30px;
+    float: inline-end;
+    font-size: 3vh;
+    
+}
+.list li{
+    padding: 0px 30px;
+    text-align: right;
+    float: inline-end;
+    text-decoration-color: #fff;
+    text-decoration: none;
+}
+
+
+.main {
+    display: flex;
+    font-size: x-large;
+    color: rgb(20, 20, 21);  
+    margin: 18px 40px;
+   
+}
+
+.myImage{
+    height: 25vh;
+    display: flex;
+}
+.myImage:hover{
+    height: 35vh;
+    display: flex;
+}
+.bg{
+    /* background-image:url(images/jphoto.jpg); */
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    height: 200px;
+    
+    
+
+}
+p{
+    font-size: x-large;
+    
+}
+
+.text{
+    margin:0 ;
+    padding: 18px 20px;
+    background: rgba(231, 231, 231, 0.5);
+    width: 85vw;
+
+
+}
+
+.text.p{
+    flex-direction: column;
+}
+
+
+
+.skillsAndImages{
+    margin: 18px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skillhead h2{
+    font-size: 5vh;
+}
+
+.skillsList li{
+    font-size:3vh;
+    margin: 2vh;
+}
+
+.SImages{
+    display: flex;
+    flex-direction: column;
+}
+.SImages img{
+    height: 20vh;
+    padding: 2vh;
+}
+.imgs{
+    display: flex;
+    flex-direction: row;
+}
+
+.project{
+    margin: 18px 40px;
+}
+.project h2{
+    font-size: 5vh;
+}
+.projects li{
+    font-size:3vh;
+    margin: 2vh;
+}
+
+/* img{
+    size: 100px;
+} */
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
+.img2{
+    size: 100px;
+}
