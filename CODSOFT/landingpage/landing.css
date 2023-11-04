@@ -6,11 +6,7 @@ header{
     /* background-color: aqua; */
 }
 
-.about{
-    /* margin: 15px 47px; */
-    /* padding: 0px 30px; */
-    /* text-align: right; */
-}
+
 .list{
     display: flex;
     list-style-type: none;
@@ -62,13 +58,16 @@ body{
     
 }
 
-.khali{
-    vertical-align:-webkit-baseline-middle;
+.khali p{
+    vertical-align:text-bottom;
+   
 }
 .img2 p{
     letter-spacing: 2px;
     font-size: 5vh;
     font-weight:500;
+    color: #f3f2f2;
+    font-weight: 600;
     /* vertical-align: bottom; */
 }
 /* p{
@@ -157,8 +156,46 @@ body{
     height: 30vh;
     /* width: 30vw; */
 }
+form{
+    margin: 20px 90px;
+    /* background-color: aqua; */
+}
 
-
+input[type=text],select,textarea{
+    width: 80%;
+    padding: 12px;
+    margin-top: 16px;
+    border: 3px solid black;
+    justify-content: center;
+    
+}
+input[type=email],select,textarea{
+    width: 80%;
+    padding: 12px;
+    margin-top: 16px;
+    border: 3px solid black;
+}
+input[type=tel],select,textarea{
+    width: 80%;
+    padding: 12px;
+    margin-top: 16px;
+    border: 3px solid black;
+}
+input[type=submit]
+{
+    background-color: red;
+    columns: black;
+    padding: 12px 20px;
+    margin-top: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+}
+.submit{
+    text-align: center;
+    margin-top: 20px;
+}
 
 footer{
     background-color: black;
